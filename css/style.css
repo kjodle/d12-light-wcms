@@ -1,0 +1,76 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+/*
+	color: #555;
+	background: #eee;
+*/
+	margin-bottom: 60px;
+	font-family: monospace;
+}
+
+.whiteFont {color: #fff;}
+.padding20 {padding: 20px;}
+.padding40 {padding: 40px;}
+.blueBackground {background-color: #1ab;}
+
+.navbar-default .navbar-toggle {border-color: #888;}
+
+.navbar li {
+	font-size: 1.2em;
+}
+
+.navbar, .navbar-collapse {
+	border: solid 1px #bbb;
+	background: none;
+}
+
+ul.nav.navbar-nav.navbar-right li {
+	border-right: solid 1px #fff;
+}
+
+ul.nav.navbar-nav.navbar-right li a:hover,
+ul.nav.navbar-nav.navbar-right li.active a {
+	color: #ddd;
+	background: #777;
+	/*
+	border-bottom: 1px solid #1ab;
+	*/
+}
+
+#page-content {
+	float: left;
+}
+
+#subside {
+	float: right;
+	color: #ddd;
+	background: #777;
+	padding: 0;
+}
+
+#about {
+	padding: 10px;
+}
+
+#info {
+	padding: 10px;
+	border-top: solid 1em #fff;
+}
+
+
+footer {
+	bottom: 0;
+	width: 100%;
+	font-size: 13px;
+	position: absolute;
+}
+
+
+/* Bootstrap over-rides */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none;
+}
